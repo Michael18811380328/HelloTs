@@ -14,10 +14,11 @@
 
 ~~~ts
 class Site { 
-   name():void { 
-      console.log("Runoob") 
-   } 
+  name():void { 
+    console.log("Runoob") 
+  } 
 } 
 var obj = new Site(); 
 obj.name();
 ~~~
+

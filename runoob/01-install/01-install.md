@@ -1,5 +1,5 @@
 
-# 安装和编译
+## 01 安装和编译
 
 ## 安装
 
@@ -7,8 +7,6 @@
 npm install -g typescript
 tsc -v
 ~~~
-
-Install typescrite golbally
 
 ## 编译
 
@@ -19,8 +17,6 @@ touch 01-install.ts
 tsc 01-install.ts
 node 01.install.js
 ~~~
-
-Install successfully
 
 ### 编译多个文件
 
@@ -34,7 +30,7 @@ tsc 01.ts 02.ts 03.ts
 
 --module 载入扩展模块
 
---target 设置ECMA版本
+--target 设置ECMA版本 `tsc test.ts --target es6` 可以把代码编译成ES6版本
 
 --declaration 编译成 js 同时生成一个 .d.ts 扩展名的文件
 
@@ -46,4 +42,5 @@ tsc 01.ts 02.ts 03.ts
 
 --module noImplicitAny 在表达式和声明上有隐含的 any 类型时报错
 
---watch 在监视模式下运行编译器。会监视输出文件，在它们改变时重新编译。
+--watch 在监视模式下运行编译器。会监视输出文件，在它们改变时重新编译。（动态编译，ts文件变化后自动编译）
+
