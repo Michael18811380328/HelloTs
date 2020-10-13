@@ -17,11 +17,17 @@ https://www.runoob.com/typescript/ts-tutorial.html
 https://study.163.com/course/introduction.htm?courseId=1209306804&share=1&shareId=1135155721#/courseDetail?tab=1
 
 https://github.com/xcatliu/typescript-tutorial
+
 TypeScript 入门教程
+
 https://github.com/semlinker/awesome-typescript
+
 https://github.com/dzharii/awesome-typescript
+
 https://github.com/brookshi/awesome-typescript-projects
+
 https://jkchao.github.io/typescript-book-chinese/
+
 深入理解 TypeScript
 
 主要的项目
