@@ -52,7 +52,7 @@ TS 是 JS 的超集：TS 功能更强大。可以通过插件转换成浏览器�
 
 强调了类型（type）具体参考官网； 什么是TS，为什么使用TS，TS编译环境安装
 
-VScode插件 live-server 热加载 HTML 插件（）
+VScode插件 live-server 热加载 HTML 插件
 
 ## 2 配置文件(自动转换ts文件)
 
@@ -118,7 +118,7 @@ enum Animal {
 
 ```ts
 function myFunc(a: number|string, b: number|string):number {
-  return (a + b) - 0; 
+  return Number(a) + Number(b);
 }
 
 ```
@@ -139,7 +139,7 @@ let dataObj: {name: string, age: number} = {
 ```ts
 let dateObj: {name: number[], sayHi: (a:number, b:string) => string[]} = {
   name: [1,2,3,4,5],
-  sayHi: function (a: number, b : string):string {
+  sayHi: function (a: number, b: string):string[] {
     console.log(this.name);
     return ['a', 'b', 'c'];
   }
