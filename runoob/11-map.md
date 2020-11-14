@@ -4,10 +4,6 @@
 
 ```ts
 let map = new Map();
-let map2 = new Map([
-  ['nane': 'Moe'],
-  ['age': 30],
-]);
 ```
 
 ### 主要的属性和方法

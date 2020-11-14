@@ -19,13 +19,9 @@ Number 对象属性，可以表示最大最小的值，一般不使用。
 实例方法：
 
 - toExponential() 转换成指数表示法
-
-- toFixed(value) 转换成字符串，value表示保留的小数点个数，默认是0
-
-- toLocaleString(value) 转换成字符串，使用本地的字符串格式（法国德国）
-
 - toPrecious(value) 保留几位小数
-
+- toFixed(value) 转换成数字，value表示保留的小数点个数，默认是0——number.toFixed( [digits] )
+- toLocaleString(value) 转换成字符串，使用本地的字符串格式（法国德国）
 - toString(value) 转换成字符串，value表示几进制
 
 
