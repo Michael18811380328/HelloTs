@@ -32,3 +32,9 @@ TypeScript 入门教程
 
 react-calendar 蚂蚁金服组件（这个可能是未来发展的亮点）
 
+### todo
+
+react-precision 四则运算精确值，这个库是简单的 TS 项目，同时进行了开发配置（HelloJS）。
+
+LeetCode 将已有的 JS 代码使用 TS 重新完成一次（doing）。
+
