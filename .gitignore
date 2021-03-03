@@ -1,2 +1,9 @@
-
 .DS_Store
+# dependencies
+/node_modules
+
+/demo01/node_modules
+
+/demo01/package-lock.json
+
+*.lcl
