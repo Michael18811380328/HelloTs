@@ -4,6 +4,8 @@
 
 /demo01/node_modules
 
-/demo01/package-lock.json
+/demo01/build
 
 *.lcl
+
+/demo01/package-lock.json
