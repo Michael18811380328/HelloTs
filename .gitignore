@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+/demo01/node_modules
+
+/demo01/build
+
+/demo01/package-lock.json
